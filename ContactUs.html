@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zoo Website</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="proj.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-fw-bold bg-teal-400 custom-navbar" >
+        <div class="container-fluid ">
+         <img src="./image/footprint-removebg-preview.png" height="30px" alt=""> <a class="navbar-brand fs-2 fw-bold mx-2"  href="#">Zoo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto pt-2">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html" target="_blank " >Home</a>
+     
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./AboutUS.html" target="_blank">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ticket.html" target="_blank">Tickets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ContactUs.html" target="_blank">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <header>
+        <h1>CONTACT US</h1>
+    </header>
+
+    <section class="contact-container">
+        <div class="contact-card">
+            <h2>CONTACT INFORMATION</h2>
+            <p><strong>Email:</strong> info@Karachizoo.com</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Address:</strong> Nister Road, Karachi, Pakistan</p>
+            <p><strong>Timing:</strong> 9 AM - 5 PM</p>
+            <p><strong>Days Opened:</strong> Monday - Saturday</p>
+            
+            <div class="social-media">
+                <h2>FOLLOW US ON</h2>
+                
+            </div>
+                <a href="https://www.facebook.com/groups/704161800527985/?ref=share&mibextid=NSMWBT" target="_blank">Facebook</a> <br><br>
+                <a href="https://www.instagram.com/karachizoopk/profilecard/?igsh=M3Y3MzBkbTlpNGNr" target="_blank">Instagram</a>
+            </div>
+        
+            
+        </div>
+
+        <div class="contact-card">
+            <h2>SEND US A MESSAGE</h2>
+            <form action="submit-form.php" method="post">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+
+        <div class="map-card">
+            <h2>OUR ADDRESS</h2>
+            <br>
+            <br><br>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345088293!2d144.95373531531595!3d-37.81627997975151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f0f1d01%3A0x5045675218ce6e0!2sZoo%20Name!5e0!3m2!1sen!2sau!4v1614047589204!5m2!1sen!2sau" 
+                    width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <footer >
+        <div class="container d-flex justify-content-between">
+        <div class="mx-2">
+          <h4>Follow Us </h4>
+          <p>You can follow us on Abc.com</p>
+        </div>
+        <div>
+          <h4>About Our Zoo</h4>
+          <p>Our zoo is home to a diverse range of <br> and provides a fun and educational <br> experience for visitors of all ages.</p>
+        </div>
+         <div>
+          <h4>Contact US</h4>
+          <p>info@zoowebsite.com</p>
+         </div>
+    
+        </div>
+      </footer>
+</body>
+</html>
